@@ -6,6 +6,9 @@
 
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+{% if site.subtitle %}
+  <div style="font-size: 1.4em; margin-top: -7px;" class="{% if site.style == 'dark' %}text-white{% endif %}">{{ site.subtitle }}</div>
+{% endif %}
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
@@ -14,9 +17,6 @@
   <div class="f4 mb-6">
     {% if user.name %}
       <div class="{{ metadata_styles }}">
-        {% if site.subtitle %}
-          <h2>{{ site.subtitle }}</h2>
-        {% endif %}
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
         <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           @{{ user.login }}
