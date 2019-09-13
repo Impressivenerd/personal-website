@@ -8,7 +8,7 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-subtitle: Prcincipal Software Architect
+subtitle: Principal Software Architect
 
 defaults:
   -
