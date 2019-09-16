@@ -58,10 +58,21 @@ topics:
     web_url: https://golang.org/
     image_url: https://golang.org/lib/godoc/images/go-logo-blue.svg
 
-  - name: Web design
-
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    
+  - name: Unity
+    web_url: https://unity.com/
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/unity/unity.png
+  
+  - name: Dart
+    web_url: https://dart.dev/
+    image_url: https://dart.dev/assets/shared/dart/logo+text/horizontal/white-e71fb382ad5229792cc704b3ee7a88f8013e986d6e34f0956d89c453b454d0a5.svg
+
+  - name: Kotlin
+    web_url: https://kotlinlang.org/
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
+ 
 
 theme: jekyll-theme-merlot
