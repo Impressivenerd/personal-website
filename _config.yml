@@ -73,6 +73,18 @@ topics:
   - name: Kotlin
     web_url: https://kotlinlang.org/
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
- 
+
+certifications:
+  - name: CompTIA A+
+    web_url: https://www.youracclaim.com/badges/27b1f1b5-ee40-4a52-b59e-b5b1054299de/linked_in_profile
+    image_url: https://images.youracclaim.com/images/74831957-3dc2-4460-9af2-1bf59e392c47/CompTIA_A_2B.png
+    
+  - name: CompTIA Network+
+    web_url: https://www.youracclaim.com/badges/351a1b9a-dfe9-440e-b6bc-292476baf743/linked_in_profile
+    image_url: https://images.youracclaim.com/images/9f3a0aa9-ad62-4687-9b11-ddb626259fe2/CompTIA_Network_2B.png
+    
+  - name: CompTIA Server+
+    web_url: https://www.youracclaim.com/badges/67e11161-b376-4f99-bb82-14cac2a1ea14/linked_in_profile
+    image_url: https://images.youracclaim.com/images/ea703f5e-fab3-4397-aae9-9ffcc16b6ffc/CompTIA_Server_2B.png
 
 theme: jekyll-theme-merlot
